@@ -1,4 +1,4 @@
-trtllm-serve /local/deepseek-ai/DeepSeek-R1 \
+trtllm-serve /userdata/llms/deepseek-ai/DeepSeek-R1 \
             --backend pytorch \
             --tp_size 8 \
             --pp_size 1 \
