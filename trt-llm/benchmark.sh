@@ -13,4 +13,4 @@
   --concurrency 1024 \
   --streaming \
   --kv_cache_free_gpu_mem_fraction 0.85 \
-  --extra_llm_api_options ./extra-llm-api-config.yml 2>&1 | tee /userdata/trt_bench.log
+  --extra_llm_api_options /userdata/deepseek-test/trt-llm/extra-llm-api-config.yml 2>&1 | tee /userdata/trt_bench.log
