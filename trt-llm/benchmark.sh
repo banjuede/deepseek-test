@@ -2,6 +2,7 @@
   --model deepseek-ai/DeepSeek-V3 \
   --model_path  /userdata/llms/DeepSeek-R1-FP4 \
   throughput \
+  --engine_dir /userdata/llms/DeepSeek-R1-FP4 \
   --max_batch_size 161 \
   --max_num_tokens 1160 \
   --dataset /userdata/dataset.txt \
