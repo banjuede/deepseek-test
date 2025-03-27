@@ -6,8 +6,8 @@
   --max_batch_size 161 \
   --max_num_tokens 1160 \
   --dataset /userdata/dataset.txt \
-  --tp 8 \
-  --ep 4 \
+  --tp 1 \
+  --ep 1 \
   --pp 1 \
   --concurrency 1024 \
   --streaming \
