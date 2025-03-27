@@ -4,7 +4,7 @@
   throughput \
   --max_batch_size 161 \
   --max_num_tokens 1160 \
-  --dataset /workspace/dataset.txt \
+  --dataset /userdata/dataset.txt \
   --tp 8 \
   --ep 4 \
   --pp 1 \
