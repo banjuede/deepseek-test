@@ -1,4 +1,5 @@
 trtllm-serve /userdata/llms/DeepSeek-R1-FP4 \
+            --backend pytorch \
             --tp_size 8 \
             --pp_size 1 \
             --ep_size 4 \
