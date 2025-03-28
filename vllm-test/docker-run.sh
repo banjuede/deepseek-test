@@ -6,5 +6,5 @@ docker run -d --name lumk -it --network host --ipc host --shm-size=128G \
     --gpus all \
     -e NVIDIA_VISIBLE_DEVICES=all \
     -v /userdata:/userdata \
-    nvcr.io/nvidia/tritonserver:25.02-vllm-python-py3 \
+    nvcr.io/nvidia/pytorch:25.02-py3 \
     bash
