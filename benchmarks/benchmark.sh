@@ -6,7 +6,7 @@ echo "sharedgpt dataset benchmark"
 
 for max_concurrency in "${max_concurrency_list[@]}"; do
   for output_length in "${output_lengths[@]}"; do
-    num_prompts=2000
+    num_prompts=5000
     cmd="python3 benchmark_serving.py --backend openai-chat --model /userdata/llms/deepseek-ai/DeepSeek-R1 \
       --endpoint /v1/chat/completions --num-prompts $num_prompts --max-concurrency $max_concurrency --dataset-path /userdata/sharegpt/ShareGPT_V3_unfiltered_cleaned_split.json \
       --sharegpt-output-len $output_length"
