@@ -365,7 +365,7 @@ def main():
     if not data_args.dataset_cache:
         with training_args.main_process_first(desc="create random dataset"):
             lm_datasets = create_random_train_data()
-            lm_datasets.save_to_disk('/tmp/random_ds', num_proc=4)
+            lm_datasets.save_to_disk('/tmp/random_ds')
 
     config = AutoConfig.from_pretrained(
         model_args.config_name, trust_remote_code=True
