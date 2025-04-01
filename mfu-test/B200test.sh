@@ -9,7 +9,7 @@ export NCCL_DEBUG=WARN
 # export NCCL_DEBUG_SUBSYS=ALL
 # export NCCL_DEBUG_FILE=/slurmhome/aps/xuzhihui-test-nccl.%h.%p
 export NCCL_IB_DISABLE=0
-export NCCL_SOCKET_IFNAME=eth0
+export NCCL_SOCKET_IFNAME=eno1
 export NCCL_IB_HCA=ib7s
 
 
