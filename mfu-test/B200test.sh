@@ -40,6 +40,6 @@ python3 -m torch.distributed.run --nproc_per_node 8 --nnodes 1 --node_rank 0 --m
     --overwrite_output_dir \
     --bf16 True \
     --save_strategy steps \
-    --save_steps 10 \
+    --save_steps 500 \
     --save_total_limit 1
     
